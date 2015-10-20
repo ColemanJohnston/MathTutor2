@@ -138,7 +138,7 @@ int addition(){
 int multiplication()
 {
     int answer;
-    int score;
+    int score = 0;
     for(int i = 0; i < 5; i++)
     {
         int num1 = (rand() % 12) + 1;
@@ -156,7 +156,7 @@ int multiplication()
 int subtraction()
 {
     int answer;
-    int score;
+    int score = 0;
     
     for(int i = 5; i > 0; i--)
     {
